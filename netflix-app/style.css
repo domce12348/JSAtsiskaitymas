@@ -101,6 +101,12 @@ header button {
 #header-dropdown option {
 	color: black;
 }
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
  
 h1 {
 	margin: 0;
@@ -115,18 +121,28 @@ h3 {
  
 .content-section {
 	display: flex;
+    align-items: center;
 	justify-content: center;
 	background: black;
 	padding: 50px;
     border-top: 8px solid rgb(44, 44, 44);
 }
  
-.FAQ h1,
+.content-section h3 {
+    text-align: left;
+}
+
+.faq h1,
 h3,
 form {
 	text-align: center;
 }
- 
+
+.faq {
+    border-top: 8px solid rgb(44, 44, 44);
+    
+}
+
 footer {
 	display: flex;
 	flex-direction: column;
