@@ -1,0 +1,147 @@
+body {
+	background: black;
+	color: white;
+	margin: auto;
+	max-width: 1200px;
+	font-family: 'Open Sans', sans-serif;
+}
+ 
+header {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px;
+	align-items: center;
+}
+ 
+header button {
+	border: none;
+	margin-left: 15px;
+	padding: 7px 13px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	width: auto;
+	overflow: visible;
+	background: red;
+}
+ 
+.logo {
+	width: 150px;
+	fill: red;
+}
+ 
+.header-section {
+	padding-top: 200px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+ 
+.header-form {
+	display: flex;
+	justify-content: center;
+	gap: 10px;
+}
+ 
+#header-dropdown {
+	height: 30px;
+	width: 125px;
+	background-color: transparent;
+	color: white;
+	border-radius: 5px;
+	padding-left: 10px;
+	border: 1px solid rgb(63, 63, 63);
+}
+ 
+#header-dropdown option {
+	color: black;
+}
+ 
+h1 {
+	margin: 0;
+}
+ 
+.content-section {
+	display: flex;
+	justify-content: center;
+	background: blue;
+	padding: 50px;
+}
+ 
+.FAQ h1,
+h3,
+form {
+	text-align: center;
+}
+ 
+footer {
+	display: flex;
+	flex-direction: column;
+}
+ 
+.footer-column {
+	display: flex;
+	flex-direction: column;
+	min-width: 200px;
+}
+ 
+.footer-menu {
+	margin-top: 20px;
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+ 
+/* body {
+	margin: auto;
+	padding: 0;
+	max-width: 1200px;
+	background: black;
+}
+ 
+footer {
+	font-size: 16px;
+	line-height: 24px;
+	padding-bottom: 60px;
+	color: white;
+	background-color: #000000;
+	font-weight: 400;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+ 
+#question {
+	display: block;
+	margin: auto;
+}
+ 
+.footer-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+ 
+.footer-column .question {
+	margin-bottom: 0.75rem;
+}
+.footer-column {
+	flex: 1;
+	flex-direction: column;
+	margin-bottom: 0.75rem;
+	min-width: 200px;
+}
+ 
+.footer-column a {
+	position: relative;
+	color: rgba(255, 255, 255, 0.7);
+	display: block;
+	text-decoration: underline;
+}
+ 
+.footer-column a:hover {
+	cursor: pointer;
+} */
+ 
