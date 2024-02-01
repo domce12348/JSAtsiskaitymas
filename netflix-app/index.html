@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <div class="modal"></div>
 	<header>
         <div class="fade">
             <div class="container-wrapper">
@@ -61,11 +63,14 @@
     <main>
         <section class="content-section">
             <div class="container-wrapper flex">
-            <div>
+            <div class="container-text">
                 <h1>Enjoy on your TV</h1>
                 <h3>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</h3>
             </div>
+            <div class="video-picture">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" alt="TV">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v" autoplay loop muted></video>
+            </div>
             </div>
         </section>
         <section class="content-section">
@@ -80,11 +85,14 @@
 
         <section class="content-section">
             <div class="container-wrapper flex">
-            <div>
+            <div class="container-text">
                 <h1>Watch everywhere</h1>
                 <h3>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</h3>
             </div>
+            <div class="video-picture2">
             <img src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/device-pile.png" alt="Device">
+            <video src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices.m4v" autoplay loop muted></video>
+            </div>
             </div>
         </section>
 
@@ -104,7 +112,8 @@
                 <h1>Frequently Asked Questions</h1>
             </div>
             <div class="faq-container">
-                <div class="faq-question" onclick="toggleAnswer('answer1')">How do I create an account?</div>
+                <div class="faq-question" onclick="toggleAnswer('answer1')"><span>How do i create account?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
                 <div id="answer1" class="faq-answer">
                     Netflix is a streaming service that offers a wide variety of
                     award-winning TV shows, movies, anime, documentaries, and more on
@@ -115,8 +124,8 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer2')">
-                    How much does netflix cost?
-                </div>
+                    <span>How much does netflix cost?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
                 <div id="answer2" class="faq-answer">
                     Watch Netflix on your smartphone, tablet, Smart TV, laptop, or
                     streaming device, all for one fixed monthly fee. Plans range from
@@ -124,8 +133,9 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer3')">
-                    Where can i watch?
-                </div>
+                    <span>Where can i watch?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
+                
                 <div id="answer3" class="faq-answer">
                     Watch anywhere, anytime. Sign in with your Netflix account to watch
                     instantly on the web at netflix.com from your personal computer or
@@ -138,8 +148,9 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer4')">
-                    How do i cancel?
-                </div>
+                    <span>How do i cancel?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
+                
                 <div id="answer4" class="faq-answer">
                     Netflix is flexible. There are no pesky contracts and no
                     commitments. You can easily cancel your account online in two
@@ -148,8 +159,9 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer5')">
-                    What can i watch on Netflix?
-                </div>
+                    <span>What can i watch on Netflix?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
+                
                 <div id="answer5" class="faq-answer">
                     Netflix has an extensive library of feature films, documentaries, TV
                     shows, anime, award-winning Netflix originals, and more. Watch as
@@ -157,8 +169,9 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer6')">
-                    Is Netflix good for kids
-                </div>
+                    <span>Is Netflix good for kids</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
+                
                 <div id="answer6" class="faq-answer">
                     The Netflix Kids experience is included in your membership to give
                     parents control while kids enjoy family-friendly TV shows and movies
@@ -168,8 +181,9 @@
                 </div>
 
                 <div class="faq-question" onclick="toggleAnswer('answer7')">
-                    Why am i seeing this language?
-                </div>
+                    <span>Why am i seeing this language?</span>
+                    <div class="plus-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z"/></svg></div></div>
+                
                 <div id="answer7" class="faq-answer">
                     Your browser preferences determine the language shown here.
                 </div>
@@ -178,15 +192,16 @@
             <h3>
                 Ready to watch? Enter your email to create or restart your membership.
             </h3>
-            <form>
+            <form class="faq-input">
                 <input type="email" placeholder="Email adress" />
-                <button>Get Started ></button>
+                <button class="faq-btn">Get Started ></button>
             </form>
             </div>
         </section>
     </main>
 
     <footer>
+        <div class="container-wrapper">
         <div class="question-container">
             <a href="https://help.netflix.com/contactus" id="question"
                 >Questions? Contact us.</a
@@ -222,8 +237,9 @@
                 <a href="mailto:info@abstract.com">Only On Netflix</a>
             </div>
         </div>
+    </div>
     </footer>
-  
+ 
     <script>
         function toggleAnswer(answerId) {
             var answer = document.getElementById(answerId);
