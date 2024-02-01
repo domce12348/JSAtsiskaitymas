@@ -2,15 +2,39 @@ body {
 	background: black;
 	color: white;
 	margin: auto;
-	max-width: 1200px;
 	font-family: 'Open Sans', sans-serif;
 }
  
 header {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px;
 	align-items: center;
+	background: url('https://assets.nflxext.com/ffe/siteui/vlv3/4da5d2b1-1b22-498d-90c0-4d86701dffcc/c46830d8-368e-4be2-a3c1-ff4b4c1671c0/LT-en-20240129-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.fade {
+	width: 100%;
+	background: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 1) 0,
+		rgba(0, 0, 0, 0.5) 50%,
+		rgba(0, 0, 0, 1) 100%
+	);
+}
+
+.header-top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-top: 20px;
+}
+
+.container-wrapper {
+	max-width: 1200px;
+	margin: auto;
 }
  
 header button {
@@ -23,6 +47,7 @@ header button {
 	width: auto;
 	overflow: visible;
 	background: red;
+    cursor:pointer;
 }
  
 .logo {
@@ -32,7 +57,7 @@ header button {
  
 .header-section {
 	padding-top: 200px;
-	padding-bottom: 100px;
+	padding-bottom: 200px;
 	text-align: center;
 }
  
@@ -41,11 +66,32 @@ header button {
 	justify-content: center;
 	gap: 10px;
 }
- 
+
+.header-form form input {
+	background: rgba(46, 46, 46, 0.5);
+	border: 1px solid rgb(80, 79, 79);
+	border-radius: 5px;
+	padding: 1rem 8rem 1rem 1rem;
+	color: white;
+}
+
+.header-form button {
+    border: none;
+	margin-left: 5px;
+	color: white;
+	font-weight: bold;
+	border-radius: 4px;
+	width: auto;
+	overflow: visible;
+	background: red;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
 #header-dropdown {
 	height: 30px;
 	width: 125px;
-	background-color: transparent;
+	background: rgba(46, 46, 46, 0.5);
 	color: white;
 	border-radius: 5px;
 	padding-left: 10px;
@@ -58,13 +104,21 @@ header button {
  
 h1 {
 	margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
 }
  
 .content-section {
 	display: flex;
 	justify-content: center;
-	background: blue;
+	background: black;
 	padding: 50px;
+    border-top: 8px solid rgb(44, 44, 44);
 }
  
 .FAQ h1,
